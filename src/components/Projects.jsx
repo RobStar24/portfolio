@@ -1,3 +1,5 @@
+import { Fade } from "react-reveal";
+
 const Projects = () => {
   return (
     <section className="projects" id="projects">
@@ -6,6 +8,8 @@ const Projects = () => {
           Completed <span>Projects</span>
         </h2>
       </div>
+
+      <Fade bottom distance="100px" duration={2000}>
       <div className="projects-items">
         <div className="project-card">
           <img src="\img\e-commerce_react.png" alt="" />
@@ -43,6 +47,7 @@ const Projects = () => {
           </div>
         </div>
       </div>
+      </Fade>
     </section>
   );
 };
