@@ -63,7 +63,7 @@ body {
 
 section {
   padding: 10rem 10%;
-  min-width: 100vh;
+  min-width: 100%;
   min-height: 100vh;
 }
 
@@ -309,6 +309,7 @@ span {
 form {
   display: grid;
   row-gap: 1rem;
+  width: 40%;
 }
 
 form input,
@@ -352,6 +353,9 @@ textarea {
   .home img {
     width: 40vw;
   }
+  .form {
+    width: 60%;
+  }
 }
 
 @media (max-width: 767px) {
@@ -387,6 +391,9 @@ textarea {
   .skills-items {
     grid-template-columns: repeat(2, 1fr);
   }
+  .form {
+    width: 70%;
+  }
 }
 
 @media (max-width: 620px) {
@@ -399,10 +406,16 @@ textarea {
   .heading {
     font-size: 2.7rem;
   }
+  .form {
+    width: 80%;
+  }
 }
 
 @media (max-width: 450px) {
   html {
     font-size: 50%;
+  }
+  .form {
+    width: 100%;
   }
 }

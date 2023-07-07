@@ -14,7 +14,7 @@ const Projects = () => {
         <div className="project-card">
           <img src="\img\e-commerce_react.png" alt="" />
           <div className="card-overlay">
-            <a href="#">
+            <a href="https://mini-mart26.netlify.app" target="_blank">
               <i className="bx bx-link-alt"></i>
             </a>
           </div>
@@ -23,7 +23,7 @@ const Projects = () => {
         <div className="project-card">
           <img src="/img/Pokedex.png" alt="" />
           <div className="card-overlay">
-            <a href="#">
+            <a href="https://pokeapi26.netlify.app" target="_blank">
               <i className="bx bx-link-alt"></i>
             </a>
           </div>
@@ -32,7 +32,7 @@ const Projects = () => {
         <div className="project-card">
           <img src="/img/Weather.png" alt="" />
           <div className="card-overlay">
-            <a href="#">
+            <a href="https://wheater-g26.netlify.app" target="_blank">
               <i className="bx bx-link-alt"></i>
             </a>
           </div>
@@ -41,7 +41,7 @@ const Projects = () => {
         <div className="project-card">
           <img src="\img\Blog-mascotas.png" alt="" />
           <div className="card-overlay">
-            <a href="#">
+            <a href="https://mascotasblog2.netlify.app" target="_blank">
               <i className="bx bx-link-alt"></i>
             </a>
           </div>
